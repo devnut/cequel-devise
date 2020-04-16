@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+
   spec.add_runtime_dependency 'cequel'
   spec.add_runtime_dependency 'orm_adapter-cequel'
   spec.add_runtime_dependency 'devise'
