@@ -18,9 +18,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'cequel', '~> 3.0'
-  spec.add_runtime_dependency 'orm_adapter-cequel', '~> 1.0'
-  spec.add_runtime_dependency 'devise', '~> 4.1.1'
-  spec.add_development_dependency "bundler", "~> 1.3"
+
+  spec.add_runtime_dependency 'cequel'
+  spec.add_runtime_dependency 'orm_adapter-cequel'
+  spec.add_runtime_dependency 'devise'
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
 end
